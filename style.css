@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 50px;
+}
+
+.search{
+    margin-top: 30px;
+}
+
+.search-box{
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: cornflowerblue;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.search-line-1{
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-input{
+    display: inline-flex;
+    background-color: #fff;
+    width: 300px;
+    height: 30px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px;
+    order: -1;
+}
+
+.search-field {
+    width: 250px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.search-field:focus {
+    outline: none;
+}
+
+.search-button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-line-2{
+    margin-left: 45px;
+    display: flex;
+    column-gap: 80px;
+}
+
+.serach-select-1{
+    height: 25px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.serch-item{
+    margin-bottom: 10px;
+}
+
+.search-select-2{
+    height: 25px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.news{
+    margin-top: 50px;
+}
+
+.news-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news-item{
+    max-width: 300px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+}
+
+.news-img{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.news-text{
+    padding: 20px 20px;
+}
+
+.news-time{
+    margin-bottom: 20px;
+    color: #666666;
+    font-size: 15px;
+}
+
+.news-name{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.news-button{
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px 5px;
+    float: right;
+}
+
+.news-button:hover{
+    background-color: aqua;
+}
+
+.news-button img{
+    height: 10px;
+    margin: 0 auto;
+}
+
+.news-page-time{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+
+.news-page-img{
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.news-page-text{
+    display: inline-block;
+}
+
+.news-page-link{
+    text-decoration: none;
+}
+
+.news-page-text-author{
+    margin-left: 20px;
+    font-style: italic;
+}
